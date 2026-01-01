@@ -39,6 +39,3 @@ Si vas a usar el contenido con fines comerciales por favor contacta con el autor
 
 Si quieres mejorar los notebooks (añadir tests, datos, o mejorar visualizaciones), abre un *pull request* o un *issue* en el repositorio.
 
----
-
-_Hecho automáticamente y adaptado para uso educativo._
