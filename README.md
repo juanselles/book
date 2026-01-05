@@ -1,10 +1,9 @@
-# Inteligencia Artificial con Python - Notebooks repository
+# IArtificial Intelligence with Python - Notebooks Repository
 
-Este repositorio acompaña el libro **"Inteligencia Artificial con Python"** de Juan Ignacio Sellés Rodenas.
-Contiene notebooks de ejemplo extraídos y adaptados a partir del contenido del libro. No se han tocado las imágenes originales del manuscrito.
+This repository accompanies the book **"Artificial Intelligence with Python"** by Juan Sellés. It contains example notebooks extracted and adapted from the content of the book. The original images from the manuscript have not been modified..
 
 
-## Contenido
+## Contents
 
 - `1_EDA.ipynb` — Exploratory Data Analysis (pandas, matplotlib, seaborn): ejemplos de histogramas, boxplots, heatmap.
 - `2_Regression_Linear.ipynb` — Regresión lineal con scikit-learn (ejemplo simulado).
