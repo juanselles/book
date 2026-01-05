@@ -5,36 +5,36 @@ This repository accompanies the book **"Artificial Intelligence with Python"** b
 
 ## Contents
 
-- `1_EDA.ipynb` — Exploratory Data Analysis (pandas, matplotlib, seaborn): ejemplos de histogramas, boxplots, heatmap.
-- `2_Regression_Linear.ipynb` — Regresión lineal con scikit-learn (ejemplo simulado).
-- `3_Classification_Tree.ipynb` — Clasificación simple con DecisionTreeClassifier y visualización del árbol.
-- `4_NN_Keras_MLP.ipynb` — Red neuronal simple con TensorFlow/Keras (ejemplo educativo).
-- `5_Diffusion_Toy_Denoising_AE.ipynb` — Demo educativa: denoising autoencoder que ilustra la idea de "quitar ruido" (relacionado con diffusion models).
-- `6_Transformers_Intro.ipynb` — Ejemplo de tokenización / pipeline de transformers (requiere instalar `transformers`).
+- '1_EDA.ipynb' — Exploratory Data Analysis (pandas, matplotlib, seaborn): Examples of histograms, boxplots, and heatmaps.
+- '2_Regression_Linear.ipynb' — Linear Regression with scikit-learn (simulated example).
+- '3_Classification_Tree.ipynb' — Simple Classification with DecisionTreeClassifier and tree visualization.
+- '4_NN_Keras_MLP.ipynb' — Simple Neural Network with TensorFlow/Keras (educational example).
+- '5_Diffusion_Toy_Denoising_AE.ipynb' — Educational demo: Denoising autoencoder illustrating the concept of "removing noise" (related to diffusion models).
+- '6_Transformers_Intro.ipynb' — Tokenization Example / Transformers pipeline (requires installing transformers).
 
-## Cómo usar
+## How to Use
 
-Recomendado: abrir en **Google Colab** o en tu entorno local con Jupyter. Para Colab, sube el notebook o crea un nuevo Colab y usa `File -> Upload notebook`.
+Recommended: Open in **Google Colab** or your local environment with Jupyter. For Colab, upload the notebook or create a new Colab and use 'File -> Upload notebook'.
 
-Requisitos (sugeridos):
+Suggested Requirements:
 - Python 3.8+
 - pandas, numpy, matplotlib, seaborn
 - scikit-learn
-- tensorflow (para notebooks 4 y 5) — en Colab ya está disponible
-- transformers (opcional, para notebook 6)
+- tensorflow(for notebooks 4 and 5) — already available in Colab
+- transformers (optional, for notebook 6)
 
-Instalación rápida (entorno local):
+Quick Installation (Local Environment):
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow transformers
 ```
 
-## Licencia y atribución
+## License and Attribution
 
-Repositorio del libro original. Para referencia del mismo, ver: https://www.amazon.es/dp/B0GDMKVZBK.
+This repository is part of the original book. For reference, see: https://www.amazon.es/dp/B0GDMKVZBK.
 
-Si vas a usar el contenido con fines comerciales por favor contacta con el autor para respetar derechos y condiciones.
+If you plan to use the content for commercial purposes, please contact the author to respect rights and conditions.
 
 ## Contribuciones
 
-Si quieres mejorar los notebooks (añadir tests, datos, o mejorar visualizaciones), abre un *pull request* o un *issue* en el repositorio.
+If you'd like to improve the notebooks (add tests, data, or improve visualizations), please open a pull request or an issue in the repository.
 
