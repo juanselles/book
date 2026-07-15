@@ -13,8 +13,8 @@ El repositorio está estructurado para seguir la progresión lógica del libro:
 *   **`5_diffusion_simulation.py`** — Demo educativa: Una simulación paso a paso de cómo un Modelo de Difusión elimina el ruido de una imagen.
 *   **`6_transformers_sentiment.py`** — Transformer (Lector): Uso del `pipeline` de Hugging Face con el modelo BETO para análisis de sentimientos en español.
 *   **`7_chatgpt_api_assistant.py`** — Transformer (Escritor): Ingeniería de Prompts (Prompt Engineering) y conexión a la API para crear un asistente ChatGPT personalizado (Chef Yoda).
-*   **`8_generative_ai.ipynb`** — Resumen y ejercicios extra relacionados con los conceptos de IA Generativa explicados en el libro.
-*   **📁 `app_streamlit/`** — Carpeta del Proyecto Final: Contiene `train_model.py` y `app.py` para entrenar un modelo y desplegarlo como una aplicación web usando Streamlit.
+*   **`9_generative_ai.ipynb`** — Resumen y ejercicios extra relacionados con los conceptos de IA Generativa explicados en el libro.
+*   **📁 `10_app_streamlit/`** — Carpeta del Proyecto Final: Contiene `train_model.py` y `app.py` para entrenar un modelo y desplegarlo como una aplicación web usando Streamlit.
 
 ## 🚀 Cómo usarlo
 
