@@ -14,6 +14,9 @@ El repositorio está estructurado para seguir la progresión lógica del libro:
 *   **`6_transformers_sentiment.py`** — Transformer (Lector): Uso del `pipeline` de Hugging Face con el modelo BETO para análisis de sentimientos en español.
 *   **`7_chatgpt_api_assistant.py`** — Transformer (Escritor): Ingeniería de Prompts (Prompt Engineering) y conexión a la API para crear un asistente ChatGPT personalizado (Chef Yoda).
 *   **`11_generative_ai.ipynb`** — Resumen y ejercicios extra relacionados con los conceptos de IA Generativa explicados en el libro.
+*   **`9_Customer_Segmentation_KMeans_PCA.ipynb`** — Aprendizaje No Supervisado: Flujo de trabajo analítico aplicando escalado, búsqueda del k óptimo (Codo y Silhouette), agrupamiento con K-Means y reducción de dimensionalidad bidimensional con PCA.
+*   **`10_Clasificacion_Imagenes_MNIST.ipynb`** — Análisis forense con Deep Learning: Entrenamiento avanzado de una red neuronal con TensorFlow/Keras, visualización de las curvas de aprendizaje (overfitting) y matriz de confusión para entender los errores visuales de la IA.
+*   **`11_generative_ai.ipynb`** — Resumen y ejercicios extra relacionados con los conceptos de IA Generativa explicados en el libro.
 *   **📁 `12_app_streamlit/`** — Carpeta del Proyecto Final: Contiene `train_model.py` y `app.py` para entrenar un modelo y desplegarlo como una aplicación web usando Streamlit.
 
 ## 🚀 Cómo usarlo
