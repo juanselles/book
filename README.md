@@ -1,82 +1,56 @@
-*Read this in other languages: [English](README.md), [Español](README.es.md).*
+*Leer en otros idiomas: [English](README.en.md), [Español](README.md).*
 
-# Artificial Intelligence with Python – Code Repository
 
-This repository accompanies the book **Artificial Intelligence with Python** by **John Selles**. It contains all the practical examples, scripts, and notebooks taken directly from the book's chapters.
+# Inteligencia Artificial con Python - Repositorio de Código
 
-## Contents
+Este repositorio acompaña al libro **"Inteligencia Artificial con Python"** de Juan Ignacio Sellés. Contiene todos los ejemplos prácticos, scripts y notebooks extraídos directamente de los capítulos.
 
-The repository is organized to follow the logical progression of the book:
 
-- **1_EDA.ipynb** — **Exploratory Data Analysis (EDA)** (pandas, matplotlib, seaborn): Practical examples of histograms, box plots, and correlation heatmaps.
-- **2_Regression_Linear.ipynb** — **Linear Regression** with scikit-learn (predicting salaries based on years of experience).
-- **3_Classification_Tree.ipynb** — **Classification** using `DecisionTreeClassifier`, including a graphical visualization of the decision tree.
-- **4_NN_Keras_MLP.ipynb** — **Your First Neural Network** with TensorFlow/Keras (handwritten digit classification using the MNIST dataset).
-- **5_diffusion_simulation.py** — **Educational Demo:** A step-by-step simulation showing how a Diffusion Model removes noise from an image.
-- **6_transformers_sentiment.py** — **Transformer (Reader):** Using the Hugging Face pipeline with the BETO model for sentiment analysis in Spanish.
-- **7_chatgpt_api_assistant.py** — **Transformer (Writer):** Prompt Engineering and API integration to build a custom ChatGPT assistant (Chef Yoda).
-- **8_Hyperparameter_Optimization.ipynb** — **Model Optimization:** Training Random Forest and XGBoost models to reduce overfitting and finding the optimal hyperparameters using cross-validation (`GridSearchCV` and `RandomizedSearchCV`).
-- **9_Customer_Segmentation_KMeans_PCA.ipynb** — **Unsupervised Learning:** An end-to-end workflow including feature scaling, optimal *k* selection (Elbow Method and Silhouette Score), K-Means clustering, and two-dimensional visualization with PCA.
-- **10_Image_Classification_MNIST.ipynb** — **Deep Learning Case Study:** Advanced TensorFlow/Keras neural network training, visualization of learning curves (overfitting detection), and confusion matrix analysis to better understand AI prediction errors.
-- **11_generative_ai.ipynb** — Summary and additional exercises covering the Generative AI concepts explained in the book.
-- **📁 12_app_streamlit/** — **Final Project:** Contains `train_model.py` and `app.py` for training a machine learning model and deploying it as a web application using Streamlit.
+## Contenido
 
----
+El repositorio está estructurado para seguir la progresión lógica del libro:
+*   **`1_EDA.ipynb`** — Análisis Exploratorio de Datos (*pandas, matplotlib, seaborn*): Ejemplos prácticos de histogramas, boxplots y mapas de calor de correlación.
+*   **`2_Regression_Linear.ipynb`** — Regresión Lineal con *scikit-learn* (predicción de salarios basada en la experiencia).
+*   **`3_Classification_Tree.ipynb`** — Clasificación Simple con *DecisionTreeClassifier* y visualización gráfica del árbol.
+*   **`4_NN_Keras_MLP.ipynb`** — Primera Red Neuronal con *TensorFlow/Keras* (clasificación de dígitos escritos a mano con MNIST).
+*   **`5_diffusion_simulation.py`** — Demo educativa: Una simulación paso a paso de cómo un Modelo de Difusión elimina el ruido de una imagen.
+*   **`6_transformers_sentiment.py`** — Transformer (Lector): Uso del `pipeline` de Hugging Face con el modelo BETO para análisis de sentimientos en español.
+*   **`7_chatgpt_api_assistant.py`** — Transformer (Escritor): Ingeniería de Prompts (Prompt Engineering) y conexión a la API para crear un asistente ChatGPT personalizado (Chef Yoda).
+*   **`8_Hyperparameter_Optimization.ipynb`** — Optimización de Modelos: Entrenamiento de Random Forest y XGBoost para evitar el sobreajuste (overfitting), y búsqueda de las configuraciones óptimas usando validación cruzada (GridSearchCV y RandomizedSearchCV).
+*   **`9_Customer_Segmentation_KMeans_PCA.ipynb`** — Aprendizaje No Supervisado: Flujo de trabajo analítico aplicando escalado, búsqueda del k óptimo (Codo y Silhouette), agrupamiento con K-Means y reducción de dimensionalidad bidimensional con PCA.
+*   **`10_Image_Classification_MNIST.ipynb`** — Análisis forense con Deep Learning: Entrenamiento avanzado de una red neuronal con TensorFlow/Keras, visualización de las curvas de aprendizaje (overfitting) y matriz de confusión para entender los errores visuales de la IA.
+*   **`11_generative_ai.ipynb`** — Resumen y ejercicios extra relacionados con los conceptos de IA Generativa explicados en el libro.
+*   **📁 `12_app_streamlit/`** — Carpeta del Proyecto Final: Contiene `train_model.py` y `app.py` para entrenar un modelo y desplegarlo como una aplicación web usando Streamlit.
 
-## 🚀 Getting Started
+## 🚀 Cómo usarlo
 
-### Jupyter Notebooks (`.ipynb`)
+**Para los Jupyter Notebooks (archivos `.ipynb`):**
+*   **Recomendado:** Ábrelos directamente en **Google Colab** (no requiere instalación). Simplemente puedes reemplazar `github.com` con `colab.research.google.com/github` en la URL de cualquier archivo notebook.
+*   **Entorno Local:** Ábrelos usando Jupyter Notebook, JupyterLab o VS Code.
 
-**Recommended:** Open them directly in **Google Colab** (no installation required). Simply replace `github.com` with `colab.research.google.com/github` in the notebook URL.
+**Para los Scripts de Python (archivos `.py`):**
+*   Ejecútalos directamente en tu terminal o línea de comandos: `python nombre_del_archivo.py`
+*   Para ejecutar la aplicación web, navega hasta la carpeta `app_streamlit/` y escribe: `streamlit run app.py`
 
-**Local Environment:** Open them using **Jupyter Notebook**, **JupyterLab**, or **Visual Studio Code**.
+## 🛠️ Requisitos
 
-### Python Scripts (`.py`)
-
-Run them directly from your terminal or command line:
-
-```bash
-python filename.py
-```
-
-To launch the web application, navigate to the `12_app_streamlit/` folder and run:
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 🛠️ Requirements
-
-If you plan to run the code locally, make sure you have **Python 3.8 or later** installed.
-
-Install all required libraries with:
-
+Si vas a ejecutar el código localmente, asegúrate de tener instalado Python 3.8 o superior. Puedes instalar todas las librerías necesarias con un solo comando:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow transformers openai streamlit joblib
 ```
+(Nota: Google Colab ya tiene la mayoría de estas librerías preinstaladas)..
 
-> **Note:** Google Colab already includes most of these libraries by default.
+## 📚 Encuentra el libro
+Puedes adquirir el libro en usando los siguiente enlace:
 
----
+🔗 [Versión en Español](https://www.amazon.es/dp/B0GDMKVZBK)
 
-## 📚 Get the Book
+## ⚖️ Licencia y Atribución
 
-You can purchase the book using the following link:
+Este repositorio es parte del contenido original del libro. Para referencia, visita: https://www.amazon.es/dp/B0GDMKVZBK.
 
-- 🔗 [English Edition:](https://www.amazon.com/dp/B0HC5BJR45)
+Si planeas usar el contenido con fines comerciales, por favor contacta al autor para respetar los derechos y condiciones.
 
----
+## 🤝 Contribuciones
 
-## ⚖️ License and Attribution
-
-This repository is part of the original companion material for the book.
-
-If you plan to use any of the content for commercial purposes, please contact the author to ensure compliance with the applicable copyright and licensing terms.
-
----
-
-## 🤝 Contributions
-
-If you'd like to improve the examples (add tests, datasets, or enhance the visualizations), feel free to open a **Pull Request** or submit an **Issue** in this repository.
+Si te gustaría mejorar los ejemplos (añadir pruebas, datos o mejorar las visualizaciones), siéntete libre de abrir un pull request o un issue en el repositorio.
