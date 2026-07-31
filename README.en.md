@@ -1,4 +1,4 @@
-*Read this in other languages: [English](README.md), [Español](README.es.md).*
+*Read this in other languages: [English](README.en.md), [Español](README.md).*
 
 # Artificial Intelligence with Python – Code Repository
 
