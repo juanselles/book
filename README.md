@@ -65,7 +65,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn tensorflow transformers
 
 You can purchase the book using the following link:
 
-- 🔗 **English Edition:** *(Add your Amazon link here.)*
+- 🔗 [English Edition:](https://www.amazon.com/dp/B0HC5BJR45)
 
 ---
 
